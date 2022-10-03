@@ -1,0 +1,77 @@
+.container.hero-content {
+    position: absolute;
+    width: 1100px;
+    height: 650px;
+    left: 170px;
+    top: 0px;
+}
+
+.hero-content {
+    position: absolute;
+    width: 530px;
+    height: 422px;
+    left: 170px;
+    top: 109px;
+}
+
+.hero-images {
+    position: absolute;
+    width: 570px;
+    height: 650px;
+    left: 700px;
+    top: 0px;
+}
+
+.imag.hero-card-1 {
+    position: absolute;
+    width: 190px;
+    height: 216px;
+    left: 700px;
+    top: 25px;
+}
+
+.imag.hero-card-2 {
+    position: absolute;
+    width: 190px;
+    height: 193px;
+    left: 1080px;
+    top: 457px;
+}
+
+.heading-2{
+    font-family: Roboto;
+    font-weight:  700;
+    Size: 60px;
+    line-height: 70.31px;
+}
+
+.text-block {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6B708D;
+}
+
+.hero-text-button {
+    color: #6B708D;
+    font-family: roboto;
+}
+
+.grid-logos {
+
+}
+
+.text-block.hero-description{
+    color: #6B708D;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 40px;
+}
+
+.button.primary-button.hero.w-button {
+    color: #FFFFFF;
+    font-family: roboto;
+    background-color: #072AC8;
+    margin: 0px 40px 0px 20px;
+    padding: 15px 30px;
+}
