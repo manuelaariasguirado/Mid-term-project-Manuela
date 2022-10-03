@@ -59,7 +59,13 @@
 }
 
 .grid-logos {
-
+    box-sizing: border-box;
+    display: grid;
+    grid-auto-columns: 1fr;
+    /* grid-template-columns: ; */
+    grid-template-rows: 96px;
+    row-gap: 16px;
+    column-gap: 16px;
 }
 
 .text-block.hero-description{
@@ -76,6 +82,11 @@
     padding: 15px 30px;
 }
 
-body {
-    
+.section.cta-section.wf-section {
+    position: absolute;
+    width: 1320px;
+    height: 500px;
+    left: 0px;
+    top: 0px;    
+    background-color: #FFC600;
 }
