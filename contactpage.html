@@ -12,16 +12,29 @@
       <h1>Contact Us</h1>
     </div>
     <form class="contac-form" method="post">
-      <div class="full">
+      <div class="contact-form-name">
         <!--FULL NAME-->
         <label for="full name">Full Name*</label>
         <input class="input full-name-input "type="text" placeholder="Enter your full name" required>
       </div>
-      <div class="half">
+      <div class="contact-form-email-phone">
         <!--EMAIL-->
-        <div class="email"></div>
+        <div class="contact-form-email">
+          <label for="email">Email</label>
+          <input class="input email-input" type="email" placeholder="Enter your email address">
+        </div>
         <!--PHONE-->
+        <div class="contact-form-phone">
+          <label for="phone">Phone</label>
+          <input class="input phone-input" type="number" placeholder="Enter your phone number">
+        </div>
       </div>
+      <div class="contact-form-message">
+        <!--MESSAGE-->
+        <label for="message">Message*</label>
+        <textarea class=" textarea message-input" placeholder="Write your message here..." required></textarea>
+      </div>it
+      <button class="button">Subm</button>
     </form>
     <!--FOOTER-->
     <div class="section footer wf-section">
