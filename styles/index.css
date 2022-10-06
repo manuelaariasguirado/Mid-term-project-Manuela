@@ -18,6 +18,9 @@
 /* Projects */
 @import url(./projects.css);
 
+/* Footer */
+@import url(./footer.css);
+
 
 
 
@@ -43,5 +46,7 @@
 
 /* Project-page-main */
 
+
 /* ContactUs-page */
+@import url(/styles/form.css);
 

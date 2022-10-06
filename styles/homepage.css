@@ -264,47 +264,4 @@ h3 {
 
 
 
-.section-footer {
-    margin-top: 200px;
-    padding-bottom: 100px;
-}
 
-.container.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    background-color: #F4F6FC;
-}
-
-.footer-content {
-    display: flex;
-    width: 260px;
-    flex-direction: column;
-}
-
-.footer-content-logo {
-    width: 100px;
-    height: 30px;
-    margin-bottom: 30px;
-    background-image: url(/images/logos/circle.svg);
-    background-position: 50% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.footer-content-address {
-    font-size: 17px;
-    line-height: 150%;
-}
-
-.footer-links {
-    display: grid;
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-}
-
-.section.footer {
-    background-color: #F4F6FC;
-}
