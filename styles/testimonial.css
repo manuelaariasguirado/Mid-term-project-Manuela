@@ -4,8 +4,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 1320px;
+    max-width: 1320px;
+    height: 622PX;
     background-color: #292e47;
     background-image: url('/images/testimonial-section/orbit.png');
     background-size: cover;
@@ -13,6 +14,8 @@
     position: relative;
     text-align: center;
     gap:75px;
+    margin: 70px;
+    margin-bottom: 100px;
 }
 
 .memoji {
@@ -20,25 +23,25 @@
     width: 14%;
 }
 
-.memoji-1 {
+.memoji1 {
     position: absolute;
     top: 0;
     left: 0;
 } 
 
-.memoji-2 {
+.memoji2 {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.memoji-3 {
+.memoji3 {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.memoji-4 {
+.memoji4 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -51,6 +54,11 @@ h3.title-testimonial {
 }
 
 h4.text-testimonial {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #FFC600;
+    max-width: 35%;
 
 }
 
@@ -87,11 +95,11 @@ h4.text-testimonial {
 }
 
 .client-name {
-
+    color: #A2D6F9;
 }
 
 .client-position {
-
+    color: white;
 }
 
 

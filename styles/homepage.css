@@ -262,100 +262,7 @@ h3 {
     margin-inline-end: 0px;
 }
 
-.section.cta-section {
-    width: 1320px;
-    max-width: 1320px;
-    height: 500px;
-    margin-top: 200px;
-    margin-right: auto;
-    margin-left: auto;   
-    background-color: #FFC600;
-}
 
-.container-container-cta {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.cta-heading {
-    margin-bottom: 20px;
-    font-size: 40px;
-    color: #292e47;
-}
-
-.cta-subtitle {
-    font-size: 17px;
-}
-
-.form-block {
-    display: flex;
-    margin-top: 50px;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.w-form {
-    margin: 0 0 15px;
-}
-
-.cta-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cta-textfield-wrapper {
-    position: relative;
-    display: flex;i
-    align-items: center;
-}
-
-.text-field {
-    width: 393px;
-    height: 80px;
-    margin-bottom: 0px;
-    padding-left: 300px;
-    background-color: #ecf7ff;
-    color: #292e47;
-}
-
-.text-field.w-input {
-    padding-left: 60px;
-}
-
-.textfield-icon {
-    position: absolute;
-    padding-left: 20%;
-    /* left: 8%; */
-    top: 27%;
-    right: auto;
-    bottom: auto;
-    width: 30px;
-    height: 30px;
-    background-image: url(/images/newsletter/icon/mail.svg);
-    background-position: 50% 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
-.w-input {
-    display: block;
-    padding: 8px 12px;
-    font-size: 14px;
-    line-height: 1,43;
-    /* vertical-align: middle; */
-    border: 1px solid #cccccc;
-}
-
-.button.primary-button.cta-button {
-    height: 80px;
-    margin-left: 20px;
-    padding-right: 60px;
-    padding-left: 60px;
-}
 
 .section-footer {
     margin-top: 200px;
@@ -390,15 +297,12 @@ h3 {
     line-height: 150%;
 }
 
-.footer-link {
+.footer-links {
     display: grid;
-    grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .section.footer {
