@@ -37,8 +37,9 @@
 /* Homepage-logos */
 
 /* Homepage-testimonials */
-
+@import url(/styles/testimonial);
 /* Homepage-services */
+@import url(/styles/services.css);
 
 /* Project-page-main */
 
