@@ -1,0 +1,97 @@
+.section-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #292e47;
+    background-image: url('/images/testimonial-section/orbit.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    gap:75px;
+}
+
+.memoji {
+    max-width: 150px;
+    width: 14%;
+}
+
+.memoji-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+
+.memoji-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.memoji-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.memoji-4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+h3.title-testimonial {
+    font-size: 40px;
+    text-align: center;
+    color: #ecf7ff;
+}
+
+h4.text-testimonial {
+
+}
+
+.client {
+    display: flex;
+}
+
+.section-testimonial.client {
+    align-items: center;
+    text-align: left;
+}
+
+.client-image {
+    margin-right: 1rem;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar {
+    height: 100%;
+}
+
+
+.client-info {
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: inherit;
+}
+
+.client-name {
+
+}
+
+.client-position {
+
+}
+
+
