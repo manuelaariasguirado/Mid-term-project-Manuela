@@ -1,0 +1,48 @@
+div {
+    /* display: block; */
+}
+
+.project-info {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.project-header {
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: blueviolet; */
+}
+
+
+h1 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 24px;
+}
+.project-date {
+    display: flex;
+    justify-content: space-between;
+    align-self: right;
+    gap: 10px;
+    font-size: 24px;
+    color: #6B708D;
+    max-width: 30px;
+}
+
+.span {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.project-image {
+    height: 444px;
+    overflow: hidden;
+    margin: 5% 0;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
