@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <nav class="navbar_" role="navigation" aria-label="main navigation">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
             <img src="./images/logos/circle.svg" width="112" height="28">
@@ -31,30 +31,30 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Contact Us</strong>
-                </a>
+                <a class="button is-primary">Contact Us</a>
               </div>
             </div>
           </div>
         </div>
       </nav>
-    <div class="container.hero-content">
+  <div class="section hero wf-section=">
+    <div class="container-hero-container">
         <div class="hero-content">
-            <h1 class="heading-2 hero-heading">Empower Your Business Stunning Design!</h1>
+            <h1 class="heading-2 hero-heading">Empower Your Business With Stunning Design!</h1>
             <div class="text-block hero-description">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</div>
             <div class="hero-buttons">
                 <a href="#" class="hero-text-button">See our work</a>
-                <a href="#" class="button primary-button hero w-button">Get in touch</a>
+                <a href="#" class="button-get-in-touch">Get in touch</a>
             </div>
         </div>
-        <div class="hero-images">
-            <img src="./images/hero-section/hero-image.png" alt="hero image">
-            <img src="./images/hero-section/card-1.png" alt="card-1" class="imag.hero-card-1">
-            <img src="./images/hero-section/card-2.png" alt="card-2" class="imag.hero-card-2">
+        <div class="hero-image">
+            <img src="./images/hero-section/card-1.png" alt="card-1" class="imag-hero-card-1">
+            <img src="./images/hero-section/hero-image.png" alt="hero-image-main">
+            <img src="./images/hero-section/card-2.png" alt="card-2" class="imag-hero-card-2">
         </div>
         
     </div>
+  </div>
 
     <div class="grid-logos">
         <div class="client-logo"><img src="./images/logos/airbnb-logo.svg" alt="airbnb-logo"></div>
@@ -63,65 +63,163 @@
         <div class="client-logo"><img src="./images/logos/fedex-logo.svg" alt="fedex-logo"></div>
         <div class="client-logo"><img src="./images/logos/amazon-logo.svg" alt="amazon-logo"></div>
     </div>
-    <div class="projects">
-
-    </div>
-    <div class="container-testimonial">
-        <div class="emoji.top-left"></div>
-        <div class="emoji.top-right"></div>
-        <div class="emoji.bottom-left"></div>
-        <div class="emoji.bottom-right"></div>
-        <h3 class="testimonial-heading"></h3>
-        <div class="testimonial-text"></div>
-        <div class="client">
-            <div class="client-image"></div>
-            <div class="cliente-name"></div>
-            <div class="cliente-position"></div>
-        </div>
-
-    </div>
-    <div class="services">
-
-    </div>
-
-    <div class="services">
-
-    </div>
-    <div class="section services wf-section contactquestions">
-        <div class="section cta-section wf-section">
-            <div class=".container.container-cta">
-                <h1 class="cta-heading"></h1>
-                <div class="cta-subtitle">Let us help you!</div>
-                <div class="form-block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="cta-form" aria-label="Email Form">
-                        <div class="cta-textfield-wrapper">
-                            <div class="textfield-icon"></div>
-                            <input type="email" class="text-field w-input" maxlength="256" data-name="Email 2" placeholder="Enter your email" id="email-2">
-                        </div>
-                        <input type="submit" class="button-cta-suscribe"value="Suscribe" data-wait="Please wait...">
-                    </form>
+    <div class="section projects wf-section">
+      <div class="container projects-container">
+        <h2 class="projects-heading">Recent Projects</h2>
+        <div class="collection-list-wrapper w-dyn-list">
+          <div role="list" class="collection-list w-dyn-item">
+            <div role="listitem" class="collection-item w-dyn-item ">
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="./images/projects-section/1.jpg" alt="1" class="project-card-image">
                 </div>
-                
+                <div class="project-content">
+                  <div class="project-text">
+                    <div class="project-title">Simplyfy</div>
+                    <div class="project-title project-description">UI Design & App Development</div>
+                    <a href="/" class="project-link">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div role="listitem" class="collection-item w-dyn-item ">
+                <div class="project-card">
+                  <div class="project-image">
+                    <img src="./images/projects-section/2.jpg" alt="2" class="project-card-image">
+                  </div>
+                  <div class="project-content">
+                    <div class="project-text">
+                      <div class="project-title">Dashcoin</div>
+                      <div class="project-title project-description">Web Development</div>
+                      <a href="/" class="project-link">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div role="listitem" class="collection-item w-dyn-item ">
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="./images/projects-section/1.jpg" alt="1" class="project-card-image">
+                </div>
+                <div class="project-content">
+                  <div class="project-text">
+                    <div class="project-title">Vectorify</div>
+                    <div class="project-title project-description">User Experience Design</div>
+                    <a href="/" class="project-link">Learn More</a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+      </div>
     </div>
-    <div class="section footer wf-section">
-        <div class=" container footer">
-            <div class="footer-content">
-                <div class="footer-content-logo"></div>
-                <div class="footer-content-address">2972 Westheimer Rd. Santa Ana, Illinois 85486</div>
-            </div>
-            <div class="footer-links">
-                <a href="#" class="footer-link">Team</a>
-                <a href="#" class="footer-link">Services</a>
-                <a href="#" class="footer-link">About Us</a>
-                <a href="#" class="footer-link">Press</a>
-                <a href="#" class="footer-link">Projects</a>
-                <a href="#" class="footer-link">privacy Policy</a>
-            </div>
+    <div class="section testimonial wf-section">
+      <div class="container-testimonial">
+        <h3 class="testimonial-heading">Hear What Out Clients Have to Say</h3>
+        <div class="testimonial-text">"Circle helped us through every stage of our startup. We really enjoyed working with you."</div>
+        <div class="client">
+          <div class="client-image"></div>
+          <div class="cliente-info">
+            <div class="cliente-name">Kristin Watson</div>
+            <div class="client-position">Booking.com</div>
+          </div>
         </div>
+      </div>
+      <div class="emoji.top-left"></div>
+      <div class="emoji.top-right"></div>
+      <div class="emoji.bottom-left"></div>
+      <div class="emoji.bottom-right"></div>
+    </div>
+    </div>
+    <div class="services">
+
+    </div>
+
+    <div class="services">
+
     </div>
     
+    <div class="section services wf-section">
+      <div class="container services-container">
+        <h1 class="projects-heading">Our Services</h1>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon icon-1">
+              <img src="./images/services-section/icons/1.svg" alt="Icon-1">
+            </div>
+            <div class="service-content">
+              <div class="service-text">
+                <div class="project-title">User Interface Design</div>
+                <div class="project-description">
+                  Circle provides you with a stunning user interface design that is accessible to everyone.
+                </div>
+              </div>
+            </div>
+            <a href="" class="project-link">Learn More</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon icon-1">
+              <img src="./images/services-section/icons/2.svg" alt="Icon-2">
+            </div>
+            <div class="service-content">
+              <div class="service-text">
+                <div class="project-title">User Experience Design</div>
+                <div class="project-description">
+                  Circle always focuses on delivering the best user experience to your customers.
+                </div>
+              </div>
+            </div>
+            <a href="" class="project-link">Learn More</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon icon-1">
+              <img src="./images/services-section/icons/1.svg" alt="Icon-1">
+            </div>
+            <div class="service-content">
+              <div class="service-text">
+                <div class="project-title">Application Development</div>
+                <div class="project-description">
+                  We develop high-quality mobile and web applications using the latest technology stack.
+                </div>
+              </div>
+            </div>
+            <a href="" class="project-link">Learn More</a>
+          </div>
+      </div>
+    </div>
+    <div class="section services wf-section contactquestions">
+      <div class="section cta-section wf-section">
+          <div class=".container-container-cta">
+              <h1 class="cta-heading">Do you have any questions?</h1>
+              <div class="cta-subtitle">Let us help you!</div>
+              <div class="form-block w-form">
+                  <form id="email-form" name="email-form" data-name="Email Form" method="get" class="cta-form" aria-label="Email Form">
+                      <div class="cta-textfield-wrapper">
+                          <div class="textfield-icon"></div>
+                          <input type="email" class="text-field w-input" maxlength="256" data-name="Email 2" placeholder="Enter your email" id="email-2">
+                      </div>
+                      <input type="submit" class="button primary-button cta-button w-button"value="Suscribe" data-wait="Please wait...">
+                  </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="section footer wf-section">
+      <div class=" container footer">
+          <div class="footer-content">
+              <div class="footer-content-logo"></div>
+              <div class="footer-content-address">2972 Westheimer Rd. Santa Ana, Illinois 85486</div>
+          </div>
+          <div class="footer-links">
+              <a href="#" class="footer-link">Team</a>
+              <a href="#" class="footer-link">Services</a>
+              <a href="#" class="footer-link">About Us</a>
+              <a href="#" class="footer-link">Press</a>
+              <a href="#" class="footer-link">Projects</a>
+              <a href="#" class="footer-link">privacy Policy</a>
+          </div>
+      </div>
+  </div>
     <script></script>
 </body>
 </html>

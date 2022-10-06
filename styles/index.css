@@ -1,19 +1,46 @@
-/* Bulma*/
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
-
-/*navbar */
-@import url(/styles/bulma.css);
-
-/*HomePage */
-@import url(styles/homepage.css);
-/* */
+/* ESTILOS */
 
 /*Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
+/* GENERICOS */
+
+/* Bulma*/
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+/* Navbar */
+@import url(./bulma.css);
+
+/* Questions */
+@import url(./questions.css);
+
+/* Projects */
+@import url(./projects.css);
+
+
+
+
+
+/* PAGE */
+
+/*HomePage */
+@import url(./homepage.css);
 /* */
 
-/* */
 
-/* */
+
+
+
+/* Homepage-hero */
+
+/* Homepage-logos */
+
+/* Homepage-testimonials */
+
+/* Homepage-services */
+
+/* Project-page-main */
+
+/* ContactUs-page */
+
