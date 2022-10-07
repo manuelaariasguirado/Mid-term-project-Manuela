@@ -75,10 +75,10 @@ descriptionpost3();
 
 // FORMULARIO
 
-let fullname = document.querySelector('#name-input');
-let email = document.querySelector('#email-input');
-let phone = document.querySelector('#phone-input');
-let message = document.querySelector('#message-input');
+let fullname = document.querySelector('.full-name-input');
+let email = document.querySelector('.email-input');
+let phone = document.querySelector('.phone-input');
+let message = document.querySelector('.message-input');
 
 console.log(fullname);
 
