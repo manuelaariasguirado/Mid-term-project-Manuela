@@ -1,0 +1,76 @@
+.contact-form {
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+/* NAME */
+.contact-form.contact-form-name {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-form-name {
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: inherit;
+}
+
+/* EMAIL Y PHONE */
+
+.contact-form.contact-form-email-phone {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+}
+
+.contact-form-email-phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form-email {
+
+}
+
+/* MESSAGE */
+
+.contact-form-message {
+    
+}
+
+label {
+    color: #6B708D;
+    cursor: default;
+}
+
+.input {
+    border-radius: 4px;
+    box-shadow: inset;
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact-form.input {
+    border: none;
+    background: grey;
+}
+
+
+
+/* BUTTON */
+
+.button-contact-form {
+    min-height: 80px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: unset;
+    background-color: #072AC8;
+}
