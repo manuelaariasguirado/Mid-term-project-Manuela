@@ -24,13 +24,24 @@ h4 {
 .project-date {
     display: flex;
     justify-content: space-between;
-    align-self: right;
+    /* align-self: right; */
     gap: 10px;
     font-size: 24px;
     color: #6B708D;
-    max-width: 30px;
+    /* max-width: 100%; */
+    background-color: blueviolet;
 }
 
+/* DUDAS */
+.project-description {
+    background-color: red;
+    height: 500px;
+}
+
+#ejercicio {
+    height: 500px;
+    max-width: 1000px;
+}
 .span {
     font-style: inherit;
     font-weight: inherit;

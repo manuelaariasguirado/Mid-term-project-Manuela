@@ -27,7 +27,15 @@ div{
 .navbar-item{
     display: flex;
     flex-direction: row;
-    /* align-items: flex-start; */
+    transition-duration: 0.4s;
+    background-color: #F4F6FC;
+}
+
+.navbar-item.button.is-primary {
+    padding-right: 170px;
+}
+.navbar-item:hover {
+    background-color: #F4F6FC;
 }
 
 .navbar-start{

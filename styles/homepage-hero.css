@@ -81,6 +81,11 @@ h1 {
     font-style: bold;
     padding: 15px 36px;
     gap: 10px;
+    transition-duration: 0.2s;
+}
+
+.button.is-primary:hover {
+    background-color: #292e47;
 }
 
 .button-get-in-touch {
