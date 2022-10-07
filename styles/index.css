@@ -41,13 +41,13 @@
 /* Homepage-logos */
 
 /* Homepage-testimonials */
-@import url(/styles/testimonial.css);
+@import url(./testimonial.css);
 /* Homepage-services */
-@import url(/styles/services.css);
+@import url(./services.css);
 
 /* Project-page-main */
-@import url(/styles/oneproject.css);
+@import url(./oneproject.css);
 
 /* ContactUs-page */
-@import url(/styles/form.css);
+@import url(./form.css);
 

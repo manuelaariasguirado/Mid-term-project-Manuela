@@ -8,7 +8,7 @@
     max-width: 1320px;
     height: 622PX;
     background-color: #292e47;
-    background-image: url('/images/testimonial-section/orbit.png');
+    background-image: url(../images/testimonial-section/orbit.png);
     background-size: cover;
     background-position: center;
     position: relative;
