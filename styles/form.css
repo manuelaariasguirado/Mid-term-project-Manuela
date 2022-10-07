@@ -1,10 +1,10 @@
 .contact-form {
-    width: 1150px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 40px;
     overflow: hidden;
-    /* background-color: red; */
+    margin: 0 20%;
 }
 
 /* NAME */
@@ -23,26 +23,20 @@
 
 /* EMAIL Y PHONE */
 
-.contact-form.contact-form-email-phone {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 40px;
-}
-
 .contact-form-email-phone {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.contact-form-email {
-
+.contact-form-email, .contact-form-phone {
+    width: 48%;
 }
 
 /* MESSAGE */
 
 .contact-form-message {
-    
+
 }
 
 label {
@@ -50,19 +44,25 @@ label {
     cursor: default;
 }
 
-.input {
+form .input {
     border-radius: 4px;
     box-shadow: inset;
     width: 100%;
     max-width: 100%;
-}
-
-.contact-form.input {
+    padding: 30px 10px;
     border: none;
-    background: grey;
+    background-color:#E6E9F1;
 }
 
+.textarea {
+    padding: 30px 10px;
+    border: none;
+    background-color: #E6E9F1;
+}
 
+.title-contactus {
+    margin: 70px 20%;
+}
 
 /* BUTTON */
 

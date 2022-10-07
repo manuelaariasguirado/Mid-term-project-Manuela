@@ -28,15 +28,21 @@ div{
     display: flex;
     flex-direction: row;
     transition-duration: 0.4s;
-    background-color: #F4F6FC;
+    background-color: transparent;
+}
+
+.navbar-item:hover {
+    background-color: transparent;
+}
+
+.navbarBasicExample {
+    background-color: transparent;
 }
 
 .navbar-item.button.is-primary {
     padding-right: 170px;
 }
-.navbar-item:hover {
-    background-color: #F4F6FC;
-}
+
 
 .navbar-start{
     display: flex;

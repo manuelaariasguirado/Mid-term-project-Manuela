@@ -3,7 +3,7 @@
 const llamadadata = () => {
     fetch("https://baconipsum.com/api/?type=meat-and-filler")
     .then(reciboinformacion => reciboinformacion.json()) //coge la info de la API y me la pones en formato jason
-    .then(formatojason => document.querySelector('#ejercio').innerHTML = formatojason)
+    .then(formatojason => document.querySelector('#ejercicio').innerHTML = formatojason)
     // en el document query le digo que me busque en el html DONDE TIENE que poner la info que ha sacado de la API
     .catch((err) => console.log(err));
 
